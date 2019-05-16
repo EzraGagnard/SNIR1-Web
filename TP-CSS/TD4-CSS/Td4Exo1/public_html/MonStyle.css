@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 sept. 2018, 10:59:17
+    Author     : ggagnard
+*/
+
+#prems{
+    color: blue;
+    border: palevioletred;
+    background-color:  khaki;
+    border-style: ridge;
+    text-align: center;
+    width: 30%;
+    font-weight: bold;
+    margin-left: 500px;
+}
+.deuz{
+    position: static;
+    color: blueviolet;
+    border: 3px solid blue;
+    border-style: groove;
+    text-align: center;
+    position: static;
+    width: 15%;
+    font-weight: bold;
+}
+.troiz{
+    position: relative;
+    left: 30px;
+    font-family: "Courier", Times, serif;
+    font-size: 17px;
+}
+.quatrz{
+    position: relative;
+    left: 30px;
+    background-color: burlywood ; 
+    text-align: center;
+    margin-right: auto ;
+    font-weight: bold;
+    width: 15%;
+}
+.fif{
+    
+    font-family: "Century Schoolbook L", Times, serif;
+    font-size: 20px;
+    position: relative;
+    left: 70px;
+}
+

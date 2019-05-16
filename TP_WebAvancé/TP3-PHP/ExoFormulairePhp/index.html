@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>Formulaire d'inscription</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Formulaire.css" rel="stylesheet" type="text/css"/>
+        <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+        <script src="js/ValidForm.js" type="text/javascript"></script>
+        
+    </head>
+    <body>
+        <div></div>
+        <form action="php/traitement.php">
+            <fieldset id="Formulaire">
+                <legend>Formulaire d'inscription</legend>
+
+
+
+                <fieldset id="Civilités">
+                    <legend>Civilités</legend>
+                    <label for="nom" id="label-nom">Nom </label>
+                    <input type="text" name="nom" id="nom" /><br/><br/>
+
+                    <label for="prenom" id="label-prenom">Prénom </label>
+                    <input type="text" name="prenom" id="prenom" /><br/><br/>
+
+                    <label for="ville" id="label-ville">Ville</label>
+                    <select name="ville" id="ville"> 
+                        <option value="autre">autre</option>
+                        <option value="Le Mans">Le Mans</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Tour">Tour</option>
+                    </select><br/><br/>
+
+
+                    <label for="courriel" id="label-courriel">Email </label>
+                    <input type="email" name="courriel" id="courriel" /><br/><br/>
+
+                    <label for="Site" id="label-Site">Site </label>
+                    <input type="url" name="Site" id="Site" /><br/><br/>
+
+                    <table>
+                        <tr>
+                            <td style="width: 25%">Sexe:</td>
+                            <td><input type="radio" name="masculin" />Masculin <br/>
+                                <input type="radio" name="feminin" />Féminin<br /> 
+                                <input type="radio" name="autre" />Je ne souhaite pas le dire</td>
+                        </tr>
+                    </table> <br />
+
+
+
+                    <label for="photo" id="label-photo">photo</label>
+                    <input type="file" name="photo" id="photo" />
+                </fieldset>
+
+
+
+
+                <fieldset id="Savoirs">
+                    <legend>Savoirs</legend>
+                    
+                    <label for="version" id="label-version">Version</label><br/>
+                    <label for="SE" id="label-SE">Systeme d'exploitation </label>
+                    <select name="SE" id="SE"> 
+                        <option value="autre">Sélectionnez un SE</option>
+                        <option value="Windows">Windows</option>
+                        <option value="Mac os">Mac os</option>
+                        <option value="Linux">Linux</option>
+                    </select>
+
+                    <select name="version" id="version"> 
+                        
+                    </select><br/><br/>
+
+                    <label for="Languages" id="label-Languages">Languages de programmation</label><br/><br/>
+                    <input type="checkbox" name="coche1" id="coche1" value="fr"/>JAVA<br/><br/>
+                    <input type="checkbox" name="coche2" id="coche2" value="fr"/>C<br/><br/>
+                    <input type="checkbox" name="coche3" id="coche3" value="fr"/>PHP<br/><br/>
+                    <input type="checkbox" name="coche4" id="coche4" value="fr"/>Autre
+
+                </fieldset>
+
+
+
+
+
+
+                <fieldset id="Parametre">
+                    <legend>Paramètre de connexion</legend>
+                    <label for="Login" id="label-login">Login </label>
+                    <input type="text" name="Login" id="login" required="required" /><br/><br/>
+
+                    <label for="mdp" id="label-mdp">Mot de passe </label>
+                    <input type="password" name="mdp" id="mdp" required="required"/> <br/><br/>
+
+                    <label for="confmdp" id="label-confmdp">Confirmation du mot de passe </label>
+                    <input type="password" name="confmdp" id="confmdp" required="required"/>
+
+                </fieldset>
+
+
+
+                <input type="submit" value="Inscription" id="inscription"/>
+                <input type="reset" value="Effacer les informations de ce formulaire" id="effacer"/>
+            </fieldset>
+        </form>
+
+    </body>
+</html>

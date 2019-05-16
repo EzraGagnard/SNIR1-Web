@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculatrice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/calc.js" type="text/javascript"></script>
+        <link href="calc.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1 style="left: 39%; position: absolute; font-family: Arial; ">CALCULATRICE</h1>
+
+        <form>    
+            <fieldset id="cadran">
+                <input class="touche" type="button" name="1" id="bouton1" value="1"/>
+                <input class="touche" type="button" name="2" id="bouton2" value="2"/>
+                <input class="touche" type="button" name="3" id="bouton3" value="3"/>
+                <input class="touche" type="button" name="4" id="bouton4" value="4"/>
+                <input class="touche" type="button" name="5" id="bouton5" value="5"/>
+                <input class="touche" type="button" name="6" id="bouton6" value="6"/>
+                <input class="touche" type="button" name="7" id="bouton7" value="7"/>
+                <input class="touche" type="button" name="8" id="bouton8" value="8"/>
+                <input class="touche" type="button" name="9" id="bouton9" value="9"/>
+                <input class="touche" type="button" name="0" id="bouton0" value="0"/>       
+                <input class="touche" type="button" name="," id="boutonVirgule" value=","/>       
+                <input class="touche" type="button" name="=" id="boutonEgale" value="="/>       
+                <input class="touche" type="button" name="+" id="boutonPlus" value="+"/>       
+                <input class="touche" type="button" name="-" id="boutonMoins" value="-"/>       
+                <input class="touche" type="button" name="*" id="boutonFois" value="*"/>       
+                <input class="touche" type="button" name="/" id="boutonDiviser" value="/"/>       
+                <input type="text" name="resultat"  id="resultat" readonly />
+                <input class="touche" type="reset" name="reset" id="boutonAnnuler" value="reset" />
+
+            </fieldset>
+        </form>
+    </body>
+</html>

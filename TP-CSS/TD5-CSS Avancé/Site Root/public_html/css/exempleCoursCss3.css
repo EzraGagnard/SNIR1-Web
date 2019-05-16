@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 sept. 2018, 10:35:59
+    Author     : nderouelle
+*/
+
+div
+{
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid green;
+    color: white;
+    width: 15%;
+    margin: 10px;
+}
+
+div:hover
+{
+    box-shadow: 0px 0px 80px 20px greenyellow;
+    text-align: center;
+    width: 300px;
+    
+}
+
+.titreOmbre:active
+{
+    position: relative;
+    animation: bougevertical 4s linear 0s infinite alternate;
+}
+@keyframes bougevertical{
+    0% {left: 0px; top: 0px}
+    50% {left: 200px; top: 0px}
+    100% {left: 400px; top: 0px}
+}
+
+body
+{
+    padding: 80px;
+}
+
+.degradeLineaire
+{
+    background: linear-gradient(to right, white,blue);
+    width: 160px;
+    height: 100px;
+}
+
+.degradeRadial
+{
+    background: radial-gradient(100px,green,grey);
+    width: 160px;
+    height: 100px;
+}

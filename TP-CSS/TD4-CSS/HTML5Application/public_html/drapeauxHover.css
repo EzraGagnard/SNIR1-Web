@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 sept. 2018, 10:38:14
+    Author     : ggagnard
+*/
+img:hover{
+    border: 2px red ridge;
+}
+#allemagne{
+    position: absolute;
+    left: 52px;
+    top: 100px;
+    z-index: 8;
+    
+}
+#australie{
+    position: absolute;
+    left: 61px;
+    top: 72px;
+    z-index: 9;
+    
+}
+#chine{
+    position: absolute;
+    left: 115px;
+    top: 146px;
+    z-index: 5;
+    
+}
+#coreedusud{
+    position: absolute;
+    left: 85px;
+    top: 146px;
+    z-index: 6;
+    
+}
+#france{
+    position: absolute;
+    left: 139px;
+    top: 128px;
+    z-index: 4;
+    
+}
+#gb{
+    position: absolute;
+    left: 61px;
+    top: 128px;
+    z-index: 7;
+    
+}
+#italie{
+    position: absolute;
+    left: 85px;
+    top: 54px;
+    z-index: 10;
+    
+}
+#japon{
+    position: absolute;
+    left: 139px;
+    top: 72px;
+    z-index: 2;
+    
+}
+#russie{
+    position: absolute;
+    left: 115px;
+    top: 54px;
+    z-index: 1;
+    
+}
+#usa{
+    position: absolute;
+    left: 148px;
+    top: 100px;
+    z-index: 3;
+    
+}

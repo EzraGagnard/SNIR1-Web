@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css1.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <form>
+
+            <fieldset id="inscription">
+                <legend>Formulaire d'inscription</legend>
+                <!-- ************************************* CIVILITE ************************************* -->
+                <fieldset id="hautgauche">
+                    <legend>Civilités</legend>
+
+                    <!-- ************************* Nom ************************* -->
+                    <label for="nom" id="label-nom"> Nom </label>
+                    <input type="text" name="nom" id="nom">
+
+                    <!-- ************************* Prenom ************************* -->
+                    <label for="prenom" id="label-prenom"> Prénom </label>
+                    <input type="text" name="prenom" id="prenom">
+
+                    <!-- ************************* Ville ************************* -->
+                    <label for="ville" id="label-ville"> Ville </label>
+
+                    <select name="ville" id="ville"> 
+                        <option value="autre">Autre</option>
+                        <option value="lemans">Le Mans</option>
+                        <option value="mayenne">Mayenne</option>
+                    </select>
+                    <!-- ************************* Site ************************* -->
+
+                    <label for="email" id="label-email"> Email</label>
+                    <input type="email" name="email" id="email">
+
+                    <!-- ************************* Email ************************* -->
+
+                    <label for="site" id="label-site"> Site </label>
+                    <input type="text" name="site" id="site"> 
+
+                    <!-- ************************* Sexe ************************* -->
+
+                    <label for="sexe" id="label-sexe"> Sexe </label>
+
+                    <input type="radio" name="choixsexe" id="choixmasculin" value="1"/>
+                    <label for="masculin" id="label-masculin"> Masculin </label>
+                    <input type="radio" name="choixsexe" id="choixfeminin" value="2"/>
+                    <label for="masculin" id="label-feminin"> Féminin </label>
+                    <input type="radio" name="choixsexe" id="choixnon" value="3"/>
+                    <label for="non" id="label-non"> Je ne souhaite pas le dire </label>
+
+                    <!-- ************************* Photo ************************* -->
+
+                    <label for="photo" id="label-photo"> Photo </label>
+                    <input type="file" name="photo" id="photo" />
+
+                </fieldset>
+
+
+
+                <!-- ************************************* SAVOIRS ************************************* -->
+                <fieldset id="hautdroit">
+                    <legend>Savoirs</legend>
+
+                    <!-- ************************* OS ************************* -->
+                    <select name="os" id="os">
+                        <option value="choix">Choisissez un OS</option>
+                        <option value="win">Windows</option>
+                        <option value="mac">Mac os</option>
+                        <option value="lin">Linux</option>
+                        <option value="meme">L'ordinateur de grand mère</option>
+                        <option value="mini">Minitel</option>
+                    </select>
+
+                    version
+                    <select name="version" id="version">
+                        <option value="choix"></option>
+                        <option value="Ubuntu">Ubuntu</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="truc">le windows tout pourri des ordis de maths</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <label for="coche" id="label-coche"> Langages de programmation</label></br>
+                    <input type="checkbox" name="coche" id="coche1" value="fr"/>
+                    <label for="coche1" id="label-coche1">JAVA</label>
+                    <input type="checkbox" name="coche" id="coche2" value="fr"/>
+                    <label for="coche2" id="label-coche2">C</label>
+                    <input type="checkbox" name="coche" id="coche3" value="fr"/>
+                    <label for="coche3" id="label-coche3">PHP</label>
+                    <input type="checkbox" name="coche" id="coche4" value="fr"/>
+                    <label for="coche4" id="label-coche4">Autre</label>
+
+                </fieldset>
+
+                <fieldset id="bas">
+
+                    <legend>Paramètres de connexion</legend>
+                    <label for="nom" id="label-Login">Login </label>
+                    <input type="text" name="Login" id="Login" /> 
+
+                    <label for="Mdp" id="label-Mdp">Mot de passe </label>
+                    <input type="password" name="Mdp" id="Mdp" /> 
+
+                    <label for="Comfirmdp" id="label-Comfirmdp">Confirmation du mot de passe </label>
+                    <input type="password" name=Comfirmdp id="Comfirmdp" /> 
+
+                </fieldset>
+
+                <input type="submit" value="Inscription" />
+                <input type="reset" value="Effacer les information de ce formulaire" />
+
+            </fieldset>
+
+        </form>
+
+    </body>
+</html>

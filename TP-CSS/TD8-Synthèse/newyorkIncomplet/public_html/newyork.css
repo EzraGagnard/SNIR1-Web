@@ -1,0 +1,231 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 oct. 2017, 23:40:01
+    Author     : Prof
+*/
+
+#entete{
+    background-image: url('images/bando.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 15%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 1px black;
+    text-align: center;
+}
+
+#fond{
+    background-image: url('images/fond.jpg');
+    background-size: 100% 98%;
+    width: 100%;
+    height: 80%; 
+    top: 145px;
+    left: 0px;
+    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+#drapeau{
+    width: 15%;
+    height: 20%; 
+    top: 550px;
+    left: 20px;
+    position: absolute;
+    opacity: 1;  
+}
+
+/**************************************************** Affichage du menu ******************************************************/
+#menu{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+
+#menu>li{
+    list-style-type: none;
+    margin: 0px;
+    border: 1px solid black;
+    background-color: lightsteelblue;
+    border-radius: 3px;
+    padding: 3px;
+}
+#menu>li:hover{
+    background-color: palegreen;
+}
+
+
+
+#menu>li>ul{
+    position: absolute;
+    list-style-type: none;
+    left: -10000px;
+}
+#menu>li>ul>li{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 2px;
+    left: 13px;
+    background-color: lightsteelblue;
+}
+#menu>li:hover ul{
+    position: relative;
+    left: 2%;
+}
+#menu>li>ul>li:hover{
+    background-color: indianred;
+}
+
+
+
+a{ 
+    text-decoration: none; color: black; 
+} 
+
+/************************************* Fin Menu ****************************************/
+
+#cadreCentral{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    width: 800px ;
+    height: 600px ;
+    border-radius: 7px;
+    border: 1px solid black;
+
+
+}
+
+/******************************* Affichage image page accueil.html*******************************/
+#imagePlan{  
+    position: absolute;
+    top: 70px;
+    left: 255px;  
+}
+
+/*************************** Affichage image1 et image2 page strawberryFields.html***************************/
+#image1StrawberryFields{
+    background-image: url(images/strawberryFields.jpg);
+    background-size: 100% 100%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+#image2StrawberryFields{
+    background-image: url(images/imagine.jpg);
+    background-size: 100% 100%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 140px;
+    left: 410px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+/******************************* Affichage image page centralParkLePont.html*******************************/
+#imageLePont{
+    background-image: url(images/lePont.jpg);
+    background-size: 100% 100%;
+    width: 97%;
+    height: 80%;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+/******************************* Affichage image1 et image2 page brooklyn.html*******************************/
+#image1Brooklyn{
+    background-image: url(images/Brooklyn.jpg);
+    background-size: 100% 100%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+#image2Brooklyn{
+    background-image: url(images/rueBrooklyn.jpg);
+    background-size: 100% 100%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 110px;
+    left: 410px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+/**************************** Affichage image1, image2 et image3 page statueDeLaLiberte.html****************************/
+
+#image1statueDeLaLiberte{
+    background-image: url(images/libertyIsland.jpg);
+    background-size: 100% 100%;
+    width: 45%;
+    height: 40%;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+#image2statueDeLaLiberte{
+    background-image: url(images/statue1.jpg);
+    background-size: 100% 100%;
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+#image3statueDeLaLiberte{
+    background-image: url(images/statue2.jpg);
+    background-size: 100% 100%;
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 110px;
+    left: 600px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+
+
+
+/******************************* Affichage image page vueSurManhattan.html*******************************/
+
+#imageVue{
+    background-image: url(images/vueSurManhattan.jpg);
+    background-size: 100% 100%;
+    width: 97%;
+    height: 80%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}

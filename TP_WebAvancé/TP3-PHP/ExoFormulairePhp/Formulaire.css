@@ -1,0 +1,86 @@
+
+#Formulaire{
+    background-color: silver;
+    position: absolute;
+    height: 60%;
+    width: 70%;
+
+}
+
+#Civilités{
+    background-color: bisque;
+    position: absolute;
+    height: 60%;
+    width: 45%;
+} 
+
+#Savoirs{
+
+    background-color: lightgreen;
+    position: absolute;
+    height: 60%;
+    width: 45%;
+    left: 51%;
+}
+
+#Parametre{
+    background-color: lightgreen;
+    position: absolute;
+    height: 22%;
+    width: 90%;
+    bottom: 8%;
+}
+
+#inscription{
+    position: absolute;
+    bottom: 1%;
+    left: 15%
+}
+
+#effacer{
+    position: absolute;
+    bottom: 1%;
+    left: 30%
+}
+
+#nom{
+    position:absolute;
+    left: 20%;
+}
+#prenom{
+    position:absolute;
+    left: 20%;
+}
+#ville{
+    position:absolute;
+    left: 20%;
+}
+#courriel{
+    position:absolute;
+    left: 20%;
+}
+#Site{
+    position:absolute;
+    left: 20%;
+}
+
+#version{
+    position: absolute;
+    right: 7%;
+}
+#label-version{
+    position: absolute;
+    right: 5%;
+}
+#login{
+    position:absolute;
+    left: 35%;
+}
+#mdp{
+    position:absolute;
+    left: 35%;
+}
+#confmdp{
+    position:absolute;
+    left: 35%;
+}

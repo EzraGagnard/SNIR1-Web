@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 mars 2019, 09:32:36
+    Author     : ggagnard
+*/
+
+
+
+#cadran {
+    background-color: lightgray;
+    position: absolute;
+    width: 15%;
+    top: 11%;
+    left: 40%;
+    height: 261px;
+    border-radius: 7px;
+}
+
+#resultat {
+    background-color: papayawhip;
+    border-radius: 7px; 
+    position: absolute;
+    width: 93%;
+    top: 3%;
+    left: 2%;
+    height: 40px;
+    text-align: right;
+    font-size: 35px;
+
+}
+
+.touche{
+    position: absolute;
+    border-radius: 7px; 
+    background-color: paleturquoise;
+    width: 20%;
+}
+
+#bouton1 {
+    width: 20%;
+    top: 61%;
+    left: 1%;
+    height: 40px;
+}
+
+#bouton2 {
+    width: 20%;
+    top: 61%;
+    left: 25%;
+    height: 40px;
+} 
+
+
+#bouton3 {
+    width: 20%;
+    top: 61%;
+    left: 49%;
+    height: 40px;
+}
+
+#bouton4 {
+    width: 20%;
+    top: 42%;
+    left: 1%;
+    height: 40px;
+}
+
+#bouton5 {
+    width: 20%;
+    top: 42%;
+    left: 25%;
+    height: 40px;
+}
+
+#bouton6 {
+    width: 20%;
+    top: 42%;
+    left: 49%;
+    height: 40px;
+} 
+
+
+#bouton7 {
+    width: 20%;
+    top: 23%;
+    left: 1%;
+    height: 40px;
+}
+
+#bouton8 {
+    width: 20%;
+    top: 23%;
+    left: 25%;
+    height: 40px;
+}
+
+#bouton9 {
+    width: 20%;
+    top: 23%;
+    left: 49%;
+    height: 40px;
+}
+
+#bouton0{
+    width: 20%;
+    top: 80%;
+    left: 25%;
+    height: 40px;
+}
+
+#boutonVirgule  {
+    width: 20%;
+    top: 80%;
+    left: 1%;
+    height: 40px;
+}
+
+#boutonEgale {
+    width: 20%;
+    top: 80%;
+    left: 49%;
+    height: 40px;
+}
+
+#boutonPlus{
+    width: 20%;
+    top: 84%;
+    left: 75%;
+    height: 30px;
+}
+
+#boutonMoins {
+    width: 20%;
+    top: 70%;
+    left: 75%;
+    height: 30px;
+}
+
+#boutonFois {
+    width: 20%;
+    top: 56%;
+    left: 75%;
+    height: 30px;
+}
+
+#boutonDiviser {
+    width: 20%;
+    top: 42%;
+    left: 75%;
+    height: 30px;
+}
+
+#boutonAnnuler{
+   width: 20%;
+    top: 23%;
+    left: 75%;
+    height: 40px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Plan de la ville du Mans</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="mapExo3.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div>
+            <h1> Plan de la ville du Mans</h1>
+        Cliquez sur une des 3 zones du plan
+        <br/><br/>
+        </div>
+        <div>
+            <img src="imagesPourMap/mapPrincipale.jpg" usemap="#villeDuMans" alt="Plan du Mans"/>
+            <map name="villeDuMans">
+                <area shape="poly" coords="75,103,61,211,137,272,223,233,225,137,128,85" href="zone1.html" target="basGauche" alt="">
+                <area shape="rect" coords="381,213,424,262" href="zone2.html" target="basDroite" alt="">
+                 <area shape="circle" coords="429,353,21" href="zone3.html" target="Droite" alt="">
+                
+                              
+                
+            </map>
+            <iframe width="540" height="580" name="basGauche" id="basGauche"></iframe>
+            <iframe width="520" height="400" name="basDroite" id="basDroite"></iframe>
+            <iframe width="400" height="300" name="Droite" id="Droite"></iframe>
+            
+        </div>
+    </body>
+</html>

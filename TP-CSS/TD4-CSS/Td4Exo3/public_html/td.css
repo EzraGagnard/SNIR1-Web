@@ -1,0 +1,36 @@
+.boite1{
+    position: absolute;
+    background-color: lightcoral;
+    top: 0%;
+    bottom: 40%;
+    right: 60%;
+    left: 0%;
+    
+}
+.boite3{
+    position: absolute;
+    background-color: orange;
+    top: 10%;
+    bottom: 30%;
+    right: 50%;
+    left: 10%;
+    
+}
+.boite2{
+    position: absolute;
+    background-color: aqua;
+    top: 20%;
+    bottom: 20%;
+    right: 40%;
+    left: 20%;
+    
+}
+.boite4{
+    position: absolute;
+    background-color: limegreen;
+    top: 30%;
+    bottom: 10%;
+    right: 30%;
+    left: 30%;
+    
+}

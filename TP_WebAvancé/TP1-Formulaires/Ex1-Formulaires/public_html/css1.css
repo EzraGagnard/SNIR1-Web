@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 févr. 2019, 08:33:01
+    Author     : ggagnard
+*/
+
+#inscription{
+    background-color: #C0C0C0;
+    position: absolute;
+    top: 0%;
+    bottom: 35%;
+    width: 90%;
+}
+
+#hautgauche{
+    
+background-color: #eee8aa;
+    position: absolute;
+    left: 1%;
+    top: 5%;
+    bottom:41%;
+    width: 45%;
+}
+
+#hautdroit{
+    background-color:#98fb98;
+    text-align: justify;
+    position: absolute;
+    left: 51%;
+    top: 5%;
+    width: 45%;
+    bottom:41%;
+}
+
+#bas{
+    background-color: #f0e68c;
+    text-align: justify;
+    position: absolute;
+    top: 63%;
+    left: 1%;
+    width: 95%;
+}
+label{
+    display: block;
+    float: left;
+    width: 140px;
+
+}
+input{
+    display: block;
+
+}
+
+#hautgauche>label{
+   display: block;
+    float: left;
+    width: 100px; 
+}
+    #email
+{
+    position: absolute;
+    width: 50%;
+    top: 130px;
+}
+
+/* ************************* Sexe ************************* */
+
+#label-sexe
+{
+    position: absolute;
+    top: 215px;
+    left: 10px;
+}
+#choixmasculin{
+    position: absolute;
+    top: 215px;
+    left: 95px;
+}
+#choixfeminin{
+    position: absolute;
+    top: 232px;
+    left: 95px;
+}
+#choixnon{
+    position: absolute;
+    top: 249px;
+    left: 95px;
+}
+#label-masculin{
+    position: absolute;
+    top: 215px;
+    left: 120px;
+}
+#label-feminin{
+    position: absolute;
+    top: 232px;
+    left: 120px;
+}
+#label-non{
+    position: absolute;
+    top: 249px;
+    left: 120px;
+}
+
+/* ************************* Site ************************* */
+#label-site{
+    position: absolute;
+    top: 170px;
+    left: 10px;
+}
+#site{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    width: 50%;
+}
